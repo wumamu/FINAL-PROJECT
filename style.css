@@ -1,0 +1,95 @@
+body {
+  background-color: #f3f3f3;
+  font-family: arial;
+}
+
+.information_container {
+  width: 900px;
+  background-color: #fff;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information_box {
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+input {
+  padding: 0px 20px;
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.buttom_type {
+  border-radius: 10px;
+}
+
+button {
+  width: 200px;
+  height: 44px;
+  font-size: 22px;
+}
+
+table {
+  font-size: 16px;
+  text-align: left;
+  background-color: #EBEBFF;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  /*兩條線變一條線*/
+  color: black;
+  width: 100%;
+  cellspacing: 1;
+  border: 1;
+}
+
+td {
+  border: 1px solid #000000;
+  padding: 2px;
+}
+
+.list_table tr:nth-child(even) {
+  background-color: #EDEDED;
+}
+
+.list_table tr:nth-child(odd) {
+  background-color: #FAFAFA;
+}
+
+/*表個中的第一列*/
+.list_table tr:nth-child(1) {
+  background-color: #C2C2FF;
+}
+
+.homepage {
+  background-color: #6E6EFF;
+  margin: 0;
+  min-width: 1000px;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  padding: 10px;
+}
+
+.title_text {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.content_text {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+.reference_text {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
