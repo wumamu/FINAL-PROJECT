@@ -3,7 +3,7 @@
 	include 'header.php';
 	// include "db_connect.php";
     //enter your api key here
-    $api_key = "AIzaSyBjL5LYb_GFGzQx_KF757MhJ8U01nl5Jnc";
+    $api_key = "";
     $url_lat_lng = "https://maps.googleapis.com/maps/api/place/findplacefromtext/xml?";
     $url_near = "https://maps.googleapis.com/maps/api/place/nearbysearch/xml?";
 ?>
